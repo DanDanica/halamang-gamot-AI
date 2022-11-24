@@ -140,15 +140,15 @@ class _TfliteModelState extends State<TfliteModel> {
             Container(
               alignment: Alignment.center,
               child: Text(
-                'Herb: $plantName'
-                '\n'
-                'Scientific name: $scienName'
+                'Herb: \n$plantName'
                 '\n\n'
-                'Description: $description'
+                'Scientific name: \n$scienName'
                 '\n\n'
-                'Where can it be found: $location'
+                'Description: \n$description'
                 '\n\n'
-                'What are its uses: $uses',
+                'Where can it be found: \n$location'
+                '\n\n'
+                'What are its uses: \n$uses',
                 style: const TextStyle(
                     color: Color.fromARGB(255, 18, 1, 1), fontSize: 15),
               ),
