@@ -5,11 +5,13 @@ class HerbalJsonModel {
   String? location;
   String? description;
   String? uses;
+  String? imageURL;
 
   HerbalJsonModel(
       {this.herbId,
       this.plantName,
       this.location,
+      this.imageURL,
       this.scienName,
       this.description,
       this.uses});
@@ -21,5 +23,8 @@ class HerbalJsonModel {
     location = json['location'];
     description = json['description'];
     uses = json['uses'];
+    imageURL = json['imageUrl'];
   }
 }
+
+class PictureClass {}
